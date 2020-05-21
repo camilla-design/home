@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <div class="brand-name">
+                <a href="./index.html" class="logo"><img src="./img/mylogo.png" width="50px;"> </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="./cv.html" class="active">CV</a></li>
+                    <li><a href="./udemy.html" class="active">Udemy</a></li>
+                    <li><a href="./noroff.html" class="active">Noroff</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- Start Home-->
+
+    <section class="home">
+        <img src="./img/me-landscape.jpg">
+        <div class="home-content">
+            <h1>Camilla Reppen</h1>
+            <h2>Frontend Student</h2>
+        </div>
+        </div>
+    </section>
+    <!-- End Home-->
+
+    <!-- Start About Me-->
+    <section class="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h1>About Me</h1>
+                    <p class="small">Information About Me</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content">
+                    <div class="row">
+                        <div class="text">
+                            <h6>Studying <span>Frontend Development</span> at Noroff School of Technology and Digital
+                                Media and <span>The Complete 2020 Web Development Bootcamp</span> at Udemy
+                            </h6>
+                            <p>My mission is to be a very good Frontend Developer, that can create
+                                websites that the users and clients can use easily use, but at the same time
+                                amaze them, by incredible design and great user experience. I
+                                am very excited to learn more about being a Frontend Developer, and to learn more about
+                                <span>HTML5, CSS3, WordPress and JavaScript.</span> </p>
+                            <br>
+                            <h6>What i have <span>Learned</span> at Noroff so far!
+                            </h6>
+                            <p>Design, Web & Communications Technology, HTML5 & CSS3,
+                                Project Methodology, Programming Foundation, Javascript, Interaction Design, Content
+                                Management Systems & Portfolio
+                            </p>
+                            <br>
+                            <div class="follow">
+                                <a href="https://www.facebook.com/camilla.reppen.7"><img
+                                        src="./img/iconfinder_facebook_313485.png"></a>
+                                <a href="https://github.com/camilla-design"><img
+                                        src="./img/iconfinder_Github_1298743.png"></a>
+                                <a href="https://www.linkedin.com/in/camilla-reppen-18156719b/"></a><img
+                                    src="./img/6891629_preview.png" width="120px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Me-->
+
+        <!-- Start portfolio Work-->
+        <section class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title text-center">
+                        <h1>Latest Works</h1>
+                    </div>
+                    <div class="row">
+                        <div class="filter-buttons">
+                            <ul id="filter-btns">
+                                <li class="active" data-target="all">All</li>
+                                <li data-target="design">Design</li>
+                                <li data-target="html&css">HTML&CSS</li>
+                                <li data-target="fun">Fun</li>
+                                <li data-target="semesterproject">Semester project</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-gallery">
+                            <div class="item" data-id="html&css">
+                                <div class="inner">
+                                    <img src="./img/re-cycle-image.jpg" alt="portfolio">
+                                    <div class="overlay">
+                                        <span class="fa fa-plus">+</span>
+                                        <h4>HTML&CSS</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="design">
+                                <div class="inner">
+                                    <img src="./img/dog-recue-logo.jpg" alt="portfolio">
+                                    <div class="overlay">
+                                        <span class="fa fa-plus">+</span>
+                                        <h4>Design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="semesterproject">
+                                <div class="inner">
+                                    <img src="./img/image-unicef.jpg" alt="portfolio">
+                                    <div class="overlay">
+                                        <span class="fa fa-plus">+</span>
+                                        <h4>Semester Project</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="fun">
+                                <div class="inner">
+                                    <img src="./img/freia-app.jpg" alt="portfolio">
+                                    <div class="overlay">
+                                        <span class="fa fa-plus">+</span>
+                                        <h4>Fun Tryout</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="fun">
+                                <div class="inner">
+                                    <img src="./img/zalando-app.jpg" alt="portfolio">
+                                    <div class="overlay">
+                                        <span class="fa fa-plus">+</span>
+                                        <h4>Fun Tryout</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item" data-id="design">
+                                <div class="inner">
+                                    <img src="./img/shadowball.jpg" alt="portfolio">
+                                    <div class="overlay">
+                                        <span class="fa fa-plus">+</span>
+                                        <h4>Design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- End portfolio Work-->
+
+        <!-- Start lightbox -->
+        <div class="lightbox">
+            <span class="close-lightbox fa fa-close">x</span>
+            <img src="images/zalando-app.jpg" alt="portfolio">
+        </div>
+
+        <!-- End lightbox-->
+
+        <footer>
+            <p>© copy right: Camilla Reppen</p>
+        </footer>
+
+        <script src="./js/script.js"></script>
+
+</body>
+
+</html>
